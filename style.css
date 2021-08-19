@@ -1,13 +1,28 @@
 
-          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
 
 body {
-    background-color: lightblue;
+   background-image: url('img/img_bckgrd6.jpg');
+              /* Full height */
+  height: 100%;
+  width: 100%;
 
-  
-}
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-/* Add a black background color to the top navigation */
+
+          }
+          input[type=text] {
+            width: 200px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+          }
+          
+
+          /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -31,13 +46,13 @@ body {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
     color: white;
+    background-color:mediumturquoise;
+
   }
   
 h1 {
-    background-color: cyan;
-    color: blue;
+    color:midnightblue;
     margin-left: 20xp;
     font-family: 'Crimson Pro', serif;
     font-size: 48px;
@@ -45,17 +60,15 @@ h1 {
 h5 {
     color: blueviolet;
     margin-left: auto;
-    font-family: sofia;
-    font-weight: 600;
+    font-family: 'Style Script', cursive;    font-weight: 600;
     font-style: oblique;
 
 }
 h3 {
-    background-color:cadetblue;
-    color: crimson;
+    color:navy;
     margin-left: ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: italic;
+    font-family: 'Style Script', cursive;font-style: italic;
 
 }
+
 }
